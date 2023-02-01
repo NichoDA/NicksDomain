@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #90EE90; /* Lighter green color */
+  font-family: "Press Start 2P", cursive; /* Retro font */
+  margin: 20px 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#about {
+  background-color: #90EE90; /* Lighter green color */
+  color: black;
+  text-align: center;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  margin-top:70px;
+  marigin-bottom:none;
+}
+
+#games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.game {
+  background-color: #90EE90; /* Lighter green color */
+  color: black;
+  text-align: center;
+  width: calc(30%);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.game h2 {
+  margin-bottom: 5px;
+  font-family: "Press Start 2P", cursive; /* Retro font */
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.game p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+}
+
+.game a {
+  display: block;
+  background-color: black;
+  color: #90EE90; /* Lighter green color */
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.game a:hover {
+  background-color: white; /* Lighter green color */
+  color: black;
+}
