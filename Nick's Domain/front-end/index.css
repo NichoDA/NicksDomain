@@ -18,18 +18,34 @@ canvas{
   z-index: -1;
 }
 
-h1 {
-  text-align: center;
-  color: white; /* Lighter green color */
-  font-family: "Press Start 2P", cursive; /* Retro font */
-  margin: 20px 0;
+nav {
+  background-color: #90EE90;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+nav h1 {
+  color: black;
+  font-family: "Press Start 2P", cursive;
   font-size: 36px;
   font-weight: bold;
-  -webkit-text-stroke-color:#90EE90 ;
+  -webkit-text-stroke-color: #90EE90;
+  margin: 0;
+  padding: 0;
 }
 
 #about {
-  background-color: #90EE90; /* Lighter green color */
+  background-color: #90EE90;
   color: black;
   text-align: center;
   width: 45%;
@@ -37,12 +53,13 @@ h1 {
   padding: 20px;
   border-radius: 10px;
   position: relative;
-  top: 50px;
+  top: 80px;
+
 }
 
 #about h2 {
   margin-bottom: 5px;
-  font-family: "Press Start 2P", cursive; /* Retro font */
+  font-family: "Press Start 2P", cursive;
   font-size: 24px;
   font-weight: bold;
 }
@@ -50,7 +67,7 @@ h1 {
 #about p {
   margin-bottom: 20px;
   font-size: 18px;
-  font-family: Arial, sans-serif; /* Normal font */
+  font-family: Arial, sans-serif;
 }
 
 
@@ -64,7 +81,7 @@ h1 {
 }
 
 .game {
-  background-color: #90EE90; /* Lighter green color */
+  background-color: #90EE90;
   color: black;
   text-align: center;
   width: calc(30%);
@@ -75,7 +92,7 @@ h1 {
 
 .game h2 {
   margin-bottom: 5px;
-  font-family: "Press Start 2P", cursive; /* Retro font */
+  font-family: "Press Start 2P", cursive;
   font-size: 24px;
   font-weight: bold;
   text-decoration: underline;
@@ -90,16 +107,29 @@ h1 {
 .game a {
   display: block;
   background-color: black;
-  color: #90EE90; /* Lighter green color */
+  color: #90EE90;
   padding: 10px;
   border-radius: 10px;
   text-decoration: none;
   margin-top: 20px;
-  font-size: 14px;
-  font-weight: bold;
 }
 
-.game a:hover {
-  background-color: white; /* Lighter green color */
-  color: black;
-}
+  .game a {
+    display: block;
+    background-color: black;
+    color: #90EE90; /* Lighter green color */
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .game a:hover {
+    background-color: white; /* Lighter green color */
+    color: #333;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.1);
+  }
