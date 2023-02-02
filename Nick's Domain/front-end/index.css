@@ -80,6 +80,7 @@ nav h1 {
   padding-top: 50px;
 }
 
+
 .game {
   background-color: #90EE90;
   color: black;
@@ -93,9 +94,9 @@ nav h1 {
 .game h2 {
   margin-bottom: 5px;
   font-family: "Press Start 2P", cursive;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
-  text-decoration: underline;
+  border-bottom: 2px solid black;
 }
 
 .game p {
