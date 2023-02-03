@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  font-family: "Press Start 2P", cursive;
+  color: green;
+  margin-top: 50px;
+}
+
+p {
+  font-family: "Press Start 2P", cursive;
+  color: green;
+  font-size: 15px;
+  text-align: center;
+  width: 50%;
+  margin: 20px 0;
+}
+
+
+button {
+  background-color: lightgreen;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+#lobby-form {
+  display: none;
+  background-color: lightgreen;
+  padding: 5px;
+  border-radius: 5px;
+  width: fit-content;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#lobby-form h2 {
+  font-size: 14px;
+  margin-bottom: 0;
+  padding: 0;
+  font-family: Arial;
+  text-align:start;
+  margin-left: 5px;
+}
+
+#lobby-form text{
+  margin-left:20px;
+}
+
+#lobby-code {
+  width: 250px;
+  height: 40px;
+  font-size: 18px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+#join-button {
+  background-color: black;
+  color: lightgreen;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+#join-button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
